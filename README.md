@@ -1,2 +1,2 @@
 # Forext-trading-interview-task
-The code is in branch master
+The code is in branch # master NOT in main.
