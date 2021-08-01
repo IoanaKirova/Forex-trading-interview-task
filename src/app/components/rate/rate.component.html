@@ -1,0 +1,13 @@
+<div class="dashboard">
+    <table>
+        <tr *ngFor="let rate of currencyRatesList |keyvalue; let i = index">
+            <td>{{currencyData.base}}{{rate.key}}</td>
+            <td>
+                <div [ngStyle]="{'background-color': getColor()}" class="bordered">{{outputString(currencyRatesValues[i])}}</div>
+            </td>
+        </tr>
+        <tr>
+
+        </tr>
+    </table>
+</div>

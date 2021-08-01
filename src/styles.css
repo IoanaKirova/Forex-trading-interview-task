@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lucida Sans';
+}
+
+.container {
+  margin-bottom: 40px;
+  margin-top: 5px;
+  overflow: auto;
+  border: solid 1px #29aae3;
+  padding: 30px;
+  border-radius: 1px;
+}
+.dashboard{
+  margin: auto 30px;
+  overflow: auto;
+  padding: 30px;
+}
